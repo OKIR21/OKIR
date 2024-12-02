@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us - Cornhub Popcorn Paradise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        background: url("image/cornfield.jpg") no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+      }
+
+      body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+      }
+
+      .navbar-brand {
+        font-family: "Luckiest Guy", cursive;
+        color: #ffcc00 !important;
+        display: flex;
+        align-items: center;
+      }
+
+      .navbar-logo {
+        width: 50px;
+        height: auto;
+        margin-right: 10px;
+      }
+
+      .about-header {
+        color: #fff;
+        text-align: center;
+        padding: 100px 20px;
+      }
+
+      .btn-primary {
+        background-color: #ffcc00;
+        border: none;
+        color: #222;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+
+      .btn-primary:hover {
+        background-color: #e6b800;
+        color: #fff;
+        transform: scale(1.05);
+      }
+
+      .about-section {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        margin-top: -50px;
+      }
+
+      .founder-section {
+        margin-top: 50px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .founder-img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+
+      footer {
+        background-color: #222;
+        color: #fff;
+        padding: 20px 0;
+      }
+
+      footer a {
+        color: #ffcc00;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="image/CORNHUB2.png"
+            alt="Cornhub Logo"
+            class="navbar-logo"
+          />
+          <span>Corn</span>hub
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="about-header">
+      <h1 class="display-3">About Cornhub</h1>
+      <p class="lead">
+        Our mission is to bring joy to your taste buds with the finest gourmet
+        popcorn.
+      </p>
+    </header>
+
+    <section class="py-5">
+      <div class="container about-section">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="image/cornman.avif"
+              alt="About Us"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>Who We Are</h2>
+            <p>
+              At Cornhub, we’re passionate about crafting the most irresistible
+              gourmet popcorn in the world. From our humble beginnings at a
+              local farmers' market, we’ve grown into a brand loved by popcorn
+              enthusiasts worldwide.
+            </p>
+            <p>
+              Whether you’re a fan of classic caramel or adventurous flavors
+              like cheddar and chocolate, we’ve got something for everyone. We
+              believe popcorn is more than just a snack — it’s an experience.
+            </p>
+            <a href="products.html" class="btn btn-primary mt-3"
+              >Explore Products</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="founder-section text-center">
+      <div class="container">
+        <img src="image/Founder.png" alt="Founder" class="founder-img shadow" />
+        <h2 class="mt-3">Rico Sabbaluca</h2>
+        <p class="mt-3">
+          Meet Rico, the visionary behind Cornhub. His love for popcorn and
+          dedication to quality have turned a small farmers' market stall into a
+          globally beloved brand. John's belief that "every kernel has a story"
+          is the foundation of everything we do at Cornhub.
+        </p>
+      </div>
+    </section>
+
+    <footer class="text-center">
+      <p>© 2024 Cornhub | Popcorn Paradise</p>
+      <p>Follow us</p>
+    </footer>
+  </body>
+</html>
